@@ -1,0 +1,94 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #333;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.header .logo {
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.header .logo span {
+    color: var(--main-Color);
+}
+
+.header .navbar a {
+    font-size: 2rem;
+    color: #fff;
+    margin: .8rem;
+}
+
+.header .navbar a:hover {
+    color: var(--main-Color);
+}
+
+.header .icons i {
+    font-size: 2rem;
+    margin-right: 1.5rem;
+    color: #fff;
+}
+
+.header .icons i:hover {
+    color: var(--main-Color);
+}
+
+.header .search-bar-container {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    padding: 1.5rem 2rem;
+    background: #333;
+    border-top: .1rem solid rgba(255, 255, 255, .2);
+    display: flex;
+    align-items: center;
+    z-index: 1001;
+    clip-path: polygon(0 0,100% 0,100% 0,0 0);
+}
+
+.header .search-bar-container.active {
+    clip-path: polygon(0 0,100% 0,100% 100%, 0 100%);
+}
+
+.header .search-bar-container #search-bar {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.7rem;
+    text-transform: none;
+    color: #333;
+    border-radius: .5rem;
+}
+
+.header .search-bar-container label {
+    color: #fff;
+    font-size: 2.5rem;
+    cursor: pointer;
+    margin-left: 1.5rem;
+}
+
+.header .search-bar-container label:hover {
+    color: var(--main-Color);
+}
+
+#menu-bar {
+    color: #fff;
+    border: .1rem solid transparent;
+    border-radius: .5rem;
+    font-size: 3rem;
+    padding: .5rem 1.2rem;
+    cursor: pointer;
+    display: none;
+}
+
+#menu-bar:hover {
+    color: var(--main-Color);
+}

@@ -1,0 +1,38 @@
+/* Base CSS */
+@import url(/css/base.css);
+
+/* Components CSS */
+@import url(/css/components/components.css);
+
+/* Header Css */
+@import url(/css/layout/header.css);
+
+/* Login CSS */
+@import url(/css/layout/login.css);
+
+/* Media Queries CSS */
+@import url(/css/components/media.css);
+
+/* Home CSS */
+@import url(/css/layout/home.css);
+
+/* Book Section CSS */
+@import url(/css/layout/book.css);
+
+/* Package */
+@import url(/css/layout/package.css);
+
+/* Services CSS */
+@import url(/css/layout/services.css);
+
+/* Gallery Section CSS */
+@import url(/css/layout/gallery.css);
+
+/* Review CSS */
+@import url(/css/layout/review.css);
+
+/* Contact CSS */
+@import url(/css/layout/contact.css);
+
+/* Footer CSS */
+@import url(/css/layout/foorer.css);

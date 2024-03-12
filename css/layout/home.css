@@ -1,0 +1,61 @@
+.home {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content: center;
+    z-index: 0;
+   
+}
+
+.home-content {
+    text-align: center;
+
+}
+
+.home-content h3 {
+    font-size: 4.2rem;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 0 .3rem .5rem rgba(0, 0, 0, .1) ;
+}
+
+.home-content p {
+    font-size: 2.5rem;
+    color: #fff;
+    padding: .5rem 0;
+}
+
+.img-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.home .controls {
+    position: relative;
+    padding: 1rem;
+    border-radius: .5rem;
+    background: rgba(0, 0, 0, .7);
+    top: 10rem;
+
+}
+
+.home .controls .slide-btn {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+    margin: 0 .5rem;
+    display: inline-block;
+}
+
+.home .controls .slide-btn.active {
+    background: var(--main-Color);
+}

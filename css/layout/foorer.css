@@ -1,0 +1,64 @@
+.footer {
+    background: #333;
+}
+
+.footer .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.footer .box-container .box {
+    flex: 1 1 25rem;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box h3 {
+    padding: .7rem 0;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.footer .box-container .box p {
+    padding: .7rem 0;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.footer .box-container .box a {
+    display: block;
+    font-size: 1.5rem;
+    padding: .7rem 0;
+    color: #fff;
+}
+
+.footer .box-container .box a:hover {
+    color: var(--main-Color);
+}
+
+.footer .credit {
+    font-size: 2rem;
+    font-weight: normal;
+    padding: 2rem;
+    margin-top: 1rem;
+    border-top: .1rem solid rgba(255, 255, 255, .2);
+    color: #dede;
+    text-align: center;
+}
+
+.footer .credit span {
+    color: var(--main-Color);
+}
+
+.footer .box-container .box .logo {
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.footer .box-container .box .logo span {
+    color: var(--main-Color);
+}
